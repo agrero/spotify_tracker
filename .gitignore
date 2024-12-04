@@ -1,0 +1,5 @@
+.env
+
+.spotify_venv/*
+.cache
+*.json
