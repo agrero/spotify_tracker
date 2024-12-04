@@ -1,5 +1,6 @@
 from pydantic import BaseModel
 import datetime
+
 class Song(BaseModel):
 
     song_name : str
@@ -8,6 +9,10 @@ class Song(BaseModel):
 
     played_at : datetime.datetime
     
-    # get reading to work then add artist unpacking
+    # add artist unpacking
     # # artists : list[str] | None
-    # # album_name
+    
+class SongList(BaseModel):
+    
+    songs : list[Song] | None
+
