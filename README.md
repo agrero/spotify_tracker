@@ -21,8 +21,20 @@
 3) command line interface
     - current thoughts are to add this via curses but tbd
 
+
 ## Definitions
 
 1) Streaks
     - currently this is just a set of uninterrupted songs
 
+
+## Actions
+
+Activate the poetry venv
+```bash
+poetry shell
+```
+Run program
+```bash
+poetry run python main.py
+```

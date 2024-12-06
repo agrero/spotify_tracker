@@ -1,5 +1,7 @@
 .env
-
-.spotify_venv/*
 .cache
+
+__pycache__/
+
+*.csv
 *.json
