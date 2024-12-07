@@ -10,8 +10,8 @@
 
 ## Things it will do
 
-1) track the approximate % of song skipped
-    - needs to be implemented
+1) track the length of pauses
+    - I have no idea what spotify is doing on their end but I am for sure not pausing some of these songs
     
 2) visualize your grooves
     - see patterns based on spotify analytics of your song 'streaks'
